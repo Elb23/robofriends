@@ -3,9 +3,6 @@ import Card from './Card';
 
 
 const CardList = ({ robots }) => { //robots is destructured props 
-    if(true){
-        throw new Error('NOOO');
-    }
     return (
         <div>
             {
